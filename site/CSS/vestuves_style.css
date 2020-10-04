@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration-line: none;
+
+}
+
+
+.header {
+    margin: 0 auto;
+    text-align: left;
+    background-color: #CCCCCC;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+
+body {
+    background-color: #FEFFFF;
+    font-family: 'Lora', serif;
+    line-height: 16px;
+    margin: 0 auto;
+    padding-top: 0px;
+    border: 0;
+
+}
+
+.tekstas {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.tekstas h3 {
+    text-align: center;
+    color: #FEFFFF;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    font-family: 'Lora', serif;
+    margin: 0 auto;
+}
+
+.tekstas p {
+    text-align: center;
+    color: #FEFFFF;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: rgba(109, 104, 117, 1);
+    font-size: 15px;
+}
+
+
+
+nav {
+    background-color: #CCCCCC;
+} 
+
+#basicExampleNav {
+    font-size: 20px;
+    background-color: #CCCCCC;
+    color: rgba(109, 104, 117, 1);
+    text-align: left
+}
+
+#basicExampleNav a {
+    font-size: 16px;
+    color: rgba(109, 104, 117, 1);
+}
+
+#basicExampleNav a:hover {
+    color: #FEFFFF;
+    text-decoration-line: none;
+}
+
+.navbar {
+    background-color: #CCCCCC;
+    font-size: 16px;
+    color: rgba(109, 104, 117, 1);
+
+}
+
+.dropdown-item {
+    color: rgba(109, 104, 117, 1);
+    background-color: #CCCCCC;
+
+}
+
+.dropdown-item:hover {
+    background-color: #CCCCCC;
+    color: rgba(109, 104, 117, 1);
+
+}
+
+
+.dropdown-menu {
+    text-decoration: none;
+    color: rgba(109, 104, 117, 1);
+    background-color: #CCCCCC;
+}
+
+
+
+nav ul {
+    display: inline;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10%;
+    margin-left: 40%;
+    position: relative;
+}
+
+
+.logo {
+    width: 180px;
+    height: 35px;
+    position: relative;
+    top: 1px;
+    margin: 0 auto;
+    text-align: left;
+    display: inline-grid;
+    padding-left: 20px;
+
+}
+
+img {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*
+.lygiavimas img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+*/
+
+}
+
+
+.flip {
+    padding: 25%;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flip img {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.flip .back {
+    background-color: rgba(109, 104, 117, 1);
+    color: #080808;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 30%;
+    line-height: 1.6;
+    margin: 0 auto;
+
+
+}
+
+.flip a {
+    color: whitesmoke;
+    text-decoration-line: none;
+}
+
+.button {
+    background-color: rgba(109, 104, 117, 1);
+    border : 2px solid #CCCCCC;
+    margin: 0 auto;
+    padding: 2px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+}
+
+.daugiau {
+    border-color: #CCCCCC;
+    color: #080808; 
+}
+.daugiau:hover {
+    color: #080808; 
+    background-color: rgba(181, 131, 141, 1);
+}
+
+
+.footer {
+    width: 100%;
+    padding: 40px;
+    background-color: #CCCCCC;
+    color: #fff;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgba(109, 104, 117, 1);
+    font-size: 15px;
+}
+
+/*Taisyklės autorystei  */
+.Loreta p {
+    text-align: center;
+    font-size: 18px;
+
+}
+.auksciau {
+    width: 100%;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #383838;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.apatine {
+    width: 100%;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: justify;
+}
+
+footer p {
+    line-height: 1.2;
+    font-size: 12px;
+    text-align: left;
+
+}
+
+footer a {
+    color: whitesmoke;
+    padding: 0.3em;
+    text-decoration-line: none;
+    font-size: 25Px;
+}
+
+.socialiniai {
+    color: whitesmoke;
+    padding: 0.3em;
+    text-decoration-line: none;
+    font-size: 30Px;
+}
+
+.socialiniai a:hover {
+    color: rgba(181, 131, 141, 1);
+    font-size: 30Px;
+    text-decoration: none;
+}
+
+.kontaktai a {
+    line-height: 1.3em;
+    font-size: 16px;
+    font-family: 'Lora', serif;
+}
+
+
+.kontaktai fa-phone {
+    font-size: 30px;
+
+}
+
+.fab {
+    font-size: 30px;
+
+}
+
+.kontaktai p:hover {
+    color: rgba(181, 131, 141, 1);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.kontaktai a:hover {
+    color: rgba(181, 131, 141, 1);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+footer a:hover {
+    color: rgba(181, 131, 141, 1);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.p metai {
+    text-align: right;
+
+}
+/* ================================= 
+  Media Queries
+==================================== */
+@media (min-width:320px) {
+ nav li {
+        display: inline;
+        margin-right: 0 auto;
+        margin-left: 0%;
+        position: relative;
+    }
+
+}
+
+@media (min-width:481px) {
+ nav li {
+        display: inline;
+        margin-right: 0 auto;
+        margin-left: 0;
+        position: relative;
+    }
+
+
+}
+
+@media (min-width: 576px) {
+    nav li {
+        display: inline;
+        margin-right: 0 auto;
+        margin-left: 0;
+        position: relative;
+    }
+
+
+}
+
+
+@media (min-width: 768px) {
+      nav li {
+        display: inline;
+        margin-right: 0 auto;
+        margin-left: 0;
+        position: relative;
+    }
+
+}
+
+@media (min-width: 992px) {
+     nav li {
+        display: inline;
+        margin-right: 10%;
+        margin-left: 40%;
+        position: relative;
+    }
+
+}
+
